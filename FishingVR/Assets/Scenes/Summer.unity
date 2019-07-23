@@ -186,7 +186,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 14
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
@@ -567,7 +567,7 @@ GameObject:
   - component: {fileID: 216250585}
   - component: {fileID: 216250584}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Time
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -614,10 +614,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
+    m_FontSize: 20
+    m_FontStyle: 1
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -1917,10 +1917,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
+    m_FontSize: 20
+    m_FontStyle: 1
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -3324,7 +3324,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 14
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
@@ -3566,76 +3566,6 @@ Transform:
   m_Father: {fileID: 1753215708}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1331994773
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1331994775}
-  - component: {fileID: 1331994774}
-  - component: {fileID: 1331994776}
-  m_Layer: 0
-  m_Name: CFishSpawn
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1331994774
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1331994773}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df5df25a8f4f52b4ba559b2955114716, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CFishPrefab: {fileID: 7606632035450574756, guid: f3def0cfc138f184e82a6f96256a65b1,
-    type: 3}
-  campFirePrefab1: {fileID: 2040559496}
-  campFirePrefab2: {fileID: 1544870864}
-  campFirePrefab3: {fileID: 876720237}
-  campFirePrefab4: {fileID: 424106156}
-  campFirePrefab5: {fileID: 1996145994}
-  bucketPrefab: {fileID: 18343190}
-  flame1: {fileID: 1619894519}
-  flame2: {fileID: 1178986194}
-  flame3: {fileID: 1922273552}
-  flame4: {fileID: 536569451}
-  flame5: {fileID: 1388950112}
---- !u!4 &1331994775
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1331994773}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.38746387, y: 0.790852, z: -10.417782}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 19
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1331994776
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1331994773}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e61dde3da424b6f4aa5191284574d516, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scoringText: {fileID: 745331123}
 --- !u!1 &1354624667
 GameObject:
   m_ObjectHideFlags: 0
@@ -4445,7 +4375,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 14
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
@@ -4805,10 +4735,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
+    m_FontSize: 20
+    m_FontStyle: 1
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -5607,6 +5537,135 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.3
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &7649992695157316826
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7649992696182602831, guid: 98bd42e2c49a048c1a847d2974256e8e,
+        type: 3}
+      propertyPath: m_Name
+      value: CFishSpawn
+      objectReference: {fileID: 0}
+    - target: {fileID: 7649992696182602829, guid: 98bd42e2c49a048c1a847d2974256e8e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.38746387
+      objectReference: {fileID: 0}
+    - target: {fileID: 7649992696182602829, guid: 98bd42e2c49a048c1a847d2974256e8e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.790852
+      objectReference: {fileID: 0}
+    - target: {fileID: 7649992696182602829, guid: 98bd42e2c49a048c1a847d2974256e8e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.417782
+      objectReference: {fileID: 0}
+    - target: {fileID: 7649992696182602829, guid: 98bd42e2c49a048c1a847d2974256e8e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7649992696182602829, guid: 98bd42e2c49a048c1a847d2974256e8e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7649992696182602829, guid: 98bd42e2c49a048c1a847d2974256e8e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7649992696182602829, guid: 98bd42e2c49a048c1a847d2974256e8e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7649992696182602829, guid: 98bd42e2c49a048c1a847d2974256e8e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 7649992696182602829, guid: 98bd42e2c49a048c1a847d2974256e8e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7649992696182602829, guid: 98bd42e2c49a048c1a847d2974256e8e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7649992696182602829, guid: 98bd42e2c49a048c1a847d2974256e8e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7649992696182602828, guid: 98bd42e2c49a048c1a847d2974256e8e,
+        type: 3}
+      propertyPath: campFirePrefab1
+      value: 
+      objectReference: {fileID: 2040559496}
+    - target: {fileID: 7649992696182602828, guid: 98bd42e2c49a048c1a847d2974256e8e,
+        type: 3}
+      propertyPath: campFirePrefab2
+      value: 
+      objectReference: {fileID: 1544870864}
+    - target: {fileID: 7649992696182602828, guid: 98bd42e2c49a048c1a847d2974256e8e,
+        type: 3}
+      propertyPath: campFirePrefab3
+      value: 
+      objectReference: {fileID: 876720237}
+    - target: {fileID: 7649992696182602828, guid: 98bd42e2c49a048c1a847d2974256e8e,
+        type: 3}
+      propertyPath: campFirePrefab4
+      value: 
+      objectReference: {fileID: 424106156}
+    - target: {fileID: 7649992696182602828, guid: 98bd42e2c49a048c1a847d2974256e8e,
+        type: 3}
+      propertyPath: campFirePrefab5
+      value: 
+      objectReference: {fileID: 1996145994}
+    - target: {fileID: 7649992696182602828, guid: 98bd42e2c49a048c1a847d2974256e8e,
+        type: 3}
+      propertyPath: bucketPrefab
+      value: 
+      objectReference: {fileID: 18343190}
+    - target: {fileID: 7649992696182602828, guid: 98bd42e2c49a048c1a847d2974256e8e,
+        type: 3}
+      propertyPath: flame1
+      value: 
+      objectReference: {fileID: 1619894519}
+    - target: {fileID: 7649992696182602828, guid: 98bd42e2c49a048c1a847d2974256e8e,
+        type: 3}
+      propertyPath: flame2
+      value: 
+      objectReference: {fileID: 1178986194}
+    - target: {fileID: 7649992696182602828, guid: 98bd42e2c49a048c1a847d2974256e8e,
+        type: 3}
+      propertyPath: flame3
+      value: 
+      objectReference: {fileID: 1922273552}
+    - target: {fileID: 7649992696182602828, guid: 98bd42e2c49a048c1a847d2974256e8e,
+        type: 3}
+      propertyPath: flame4
+      value: 
+      objectReference: {fileID: 536569451}
+    - target: {fileID: 7649992696182602828, guid: 98bd42e2c49a048c1a847d2974256e8e,
+        type: 3}
+      propertyPath: flame5
+      value: 
+      objectReference: {fileID: 1388950112}
+    - target: {fileID: 7649992696182602818, guid: 98bd42e2c49a048c1a847d2974256e8e,
+        type: 3}
+      propertyPath: scoringText
+      value: 
+      objectReference: {fileID: 745331123}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 98bd42e2c49a048c1a847d2974256e8e, type: 3}
 --- !u!1001 &8333859035594805401
 PrefabInstance:
   m_ObjectHideFlags: 0
